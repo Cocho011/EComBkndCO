@@ -1,19 +1,29 @@
 {
-  "name": "develop",
+  "name": "ecommerce backend",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeds/index.js"
+  },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/Cocho011/EComBkndCO"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "dotenv": "^16.4.5",
+  "devDependencies": {
+    "dotenv": "^8.6.0",
     "express": "^4.19.2",
     "mysql2": "^3.10.0",
+    "nodemon": "^3.1.2",
     "sequelize": "^6.37.3"
+  },
+  "dependencies": {
+    "mysql": "^2.18.1"
   }
 }
