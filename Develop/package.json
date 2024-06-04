@@ -9,7 +9,7 @@
     "watch": "nodemon server.js",
     "seed": "node seeds/index.js"
   },
-  "repository": {
+    "repository": {
     "type": "github",
     "url": "https://github.com/Cocho011/EComBkndCO"
   },
