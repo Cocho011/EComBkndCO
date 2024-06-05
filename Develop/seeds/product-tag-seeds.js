@@ -1,9 +1,12 @@
+// Import the ProductTag model from the models directory.
 const { ProductTag } = require('../models');
 
+// Define an array of product-tag data to seed the database.
+// Each object represents a relationship between a product and a tag.
 const productTagData = [
   {
-    product_id: 1,
-    tag_id: 6,
+    product_id: 1, // Refers to the product with ID 1
+    tag_id: 6,     // Refers to the tag with ID 6
   },
   {
     product_id: 1,
@@ -51,6 +54,8 @@ const productTagData = [
   },
 ];
 
+// Function to bulk create product-tag relationships using the defined productTagData.
 const seedProductTags = () => ProductTag.bulkCreate(productTagData);
 
+// Export the function to use it in other parts of the application.
 module.exports = seedProductTags;
