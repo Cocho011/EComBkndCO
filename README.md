@@ -8,6 +8,7 @@ This project is a backend for an e-commerce site, built using Node.js, Express.j
 
 https://drive.google.com/file/d/1pJLYlFgi3of3aB_tOnm8CW8-hEDACi7W/view?usp=sharing
 
+
 ## Table of Contents
 
 - [Technologies](#technologies)
@@ -67,6 +68,12 @@ Tags:
 - POST /api/tags - Create a new tag
 - PUT /api/tags/:id - Update a tag by its id
 - DELETE /api/tags/:id - Delete a tag by its id
+
+### Screenshot of Insomnia API Structure
+
+The below screenshot showcases the API structure and application running:
+
+![alt text](<assets/Insomnia API structure .png>)
 
 ## Seeding the Database
 
