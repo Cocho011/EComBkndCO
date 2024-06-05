@@ -82,43 +82,7 @@ The below screenshot showcases the API structure and application running:
 
 ## File Structure 
 
-e-commerce-backend/
-└── Develop
-    ├── config/
-    │   └── connection.js
-    │
-    ├── controllers/
-    │   ├── categoryController.js
-    │   ├── productController.js
-    │   └── tagController.js
-    │
-    ├── models/
-    │   ├── Category.js
-    │   ├── Product.js
-    │   ├── ProductTag.js
-    │   ├── Tag.js
-    │   └── index.js
-    │
-    ├── routes/
-    │   ├── api/
-    │   │   ├── category-routes.js
-    │   │   ├── index.js
-    │   │   ├── product-routes.js
-    │   │   └── tag-routes.js
-    │   └── index.js
-    │
-    ├── seeds/
-    │   ├── category-seeds.js
-    │   ├── index.js
-    │   ├── product-seeds.js
-    │   ├── product-tag-seeds.js
-    │   └── tag-seeds.js
-    │
-├── .env
-├── .gitignore
-├── package.json
-├── README.md
-└── server.js
+![alt text](<assets/ECOM backend file structure.png>)
 
 
 ### Comments on the File Structure
