@@ -1,7 +1,7 @@
 {
-  "name": "develop",
+  "name": "e-commerce-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "A backend for an e-commerce site built using Node.js, Express.js, Sequelize, and MySQL.",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
